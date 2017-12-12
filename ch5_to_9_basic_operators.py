@@ -111,4 +111,7 @@ count = 0
 
 # ----------------Python Mathematical Functions ---------------------------------------------
 # all functions are: abs(x), ceil(x), cmp(x,y), exp(x), fabs(x), floor(x), log(x), log10(x), max(x1,x2,....),
-#       g  hghgh              min(x1,x2,...), modf(x), round(x[,n]), sqrt(x)
+#                    min(x1,x2,...), modf(x), round(x[,n]), sqrt(x)
+
+print(" abs(-45) :", abs(-45))
+print("abs(100.12)  :", abs(100.12))
