@@ -1,4 +1,5 @@
-import  sys
+import sys
+
 # ----------------Arithmetic Operators : + - * / % **(Exponent) //(floor division) ---------------
 a = 9.0
 b = 2.0
@@ -7,13 +8,13 @@ b = 2.0
 # print('res = ',res, ' rem = ',rem)
 # print(a ** b)
 
-#------------------- Python Logical Operators (and, or, not ) -------------
+# ------------------- Python Logical Operators (and, or, not ) -------------
 # if(a>10 and b > 5):
 #     print("True")
 # else:
 #     print('False')
 
-#-----------------python Bitwise Operators ---------------------
+# -----------------python Bitwise Operators ---------------------
 # bin( number) fuction is used to display integer number as binary number
 # f_bit = 60
 # s_bit = 13
@@ -115,3 +116,10 @@ count = 0
 
 print(" abs(-45) :", abs(-45))
 print("abs(100.12)  :", abs(100.12))
+
+import math
+
+print('math.ceil(-45.17) is ', math.ceil(-45.17))
+print('math.exp(-45.17) is:', math.exp(-45.17))
+print('math.fabs(-45.17) is: ',
+      math.fabs(-45.17))  # fabs works only on float and integer whreas abs() works with complex number also
