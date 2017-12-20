@@ -123,3 +123,5 @@ print('math.ceil(-45.17) is ', math.ceil(-45.17))
 print('math.exp(-45.17) is:', math.exp(-45.17))
 print('math.fabs(-45.17) is: ',
       math.fabs(-45.17))  # fabs works only on float and integer whreas abs() works with complex number also
+print("max(80, 100, 50, 166, 876)  :", max(80, 100, 50, 166, 876))  # similarly min() function
+print("math.pow(100,2) :", math.pow(100, 2))
